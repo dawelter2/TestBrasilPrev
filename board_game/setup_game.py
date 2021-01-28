@@ -24,3 +24,5 @@ def setup_game():
     properties.append(Property(95, 15))
     properties.append(Property(250, 50))
     assert len(properties) == 20
+
+    return properties

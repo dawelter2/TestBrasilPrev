@@ -2,9 +2,8 @@ from player.player import Impulsive, Demanding, Cautious, Random
 
 
 def setup_players():
-    players = list()
-    players.append(Impulsive())
-    players.append(Demanding())
-    players.append(Cautious())
-    players.append(Random())
-    return players
+    impulsive = Impulsive()
+    demanding = Demanding()
+    cautious = Cautious()
+    random = Random()
+    return impulsive, demanding, cautious, random
